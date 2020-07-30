@@ -1,14 +1,12 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import "./style.css";
 
-export default function navBar() {
+export default function Navbar(props) {
   return (
-    <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home"> Employee Directory </Navbar.Brand>{" "}
-      <Nav className="mr-auto">
-        <Nav.Link href="#home"> Home </Nav.Link>{" "}
-        <Nav.Link href="#table"> Table </Nav.Link>{" "}
-      </Nav>{" "}
-    </Navbar>
+    <nav className="navbar navbar-expand-lg navbar-secondary bg-secondary">
+      <h3>Directory</h3>
+      <div className={`navbar${props.fluid ? "-fluid" : ""}`} {...props} />
+      <nav type="text" />
+    </nav>
   );
 }

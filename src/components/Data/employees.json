@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "firstName": "Minttu",
+    "lastName": "Lauri",
+    "contactPhone": "044 799 8562"
+  },
+  {
+    "id": 2,
+    "firstName": "Sanni",
+    "lastName": "Hokkanen",
+    "contactPhone": "045 469 7513"
+  },
+  {
+    "id": 3,
+    "firstName": "Alec",
+    "lastName": "Winklaar",
+    "contactPhone": "517 839 8629"
+  },
+  {
+    "id": 4,
+    "firstName": "Quinn",
+    "lastName": "Wilson",
+    "contactPhone": "303 254 5556"
+  },
+  {
+    "id": 5,
+    "firstName": "Macit",
+    "lastName": "Tunceri",
+    "contactPhone": "582 801 7987"
+  }
+]
